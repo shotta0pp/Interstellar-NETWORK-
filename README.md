@@ -2,8 +2,9 @@
 ## THIS FORK IS INTERSTELLARNETWORK/INERSTELLAR version
 
 
-
-
+変更点(リミックス点)
+Konomi/Tokyo-proxy-v4
+を参考にし、世界ニにブロックされにくくした
 
 
 <div align="center">
