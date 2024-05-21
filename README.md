@@ -1,3 +1,11 @@
+## THIS IS NOT  USEINTERSTELLAR/INTERSTELLAR
+## THIS FORK IS INTERSTELLARNETWORK/INERSTELLAR version
+
+
+
+
+
+
 <div align="center">
     <img src="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/77c63680-544b-42e9-88d6-d288e7681e82">
     <p>Serving over 8+ million users since 2023.<p>
