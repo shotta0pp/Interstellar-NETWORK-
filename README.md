@@ -3,8 +3,9 @@
 
 
 変更点(リミックス点)
-Konomi/Tokyo-proxy-v4
+Konomi-Tokyo/Tokyo-proxy-v4
 を参考にし、世界ニにブロックされにくくした
+クレジットxbubbo konomi-tokyo
 
 
 <div align="center">
