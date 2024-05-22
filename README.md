@@ -2,10 +2,10 @@
 ## THIS FORK IS INTERSTELLARNETWORK/INERSTELLAR version
 
 
-変更点(リミックス点)
-Konomi-Tokyo/Tokyo-proxy-v4
-を参考にし、世界ニにブロックされにくくした
-クレジットxbubbo konomi-tokyo
+<p>変更点(リミックス点)</p>
+<p>Konomi-Tokyo/Tokyo-proxy-v4</p>
+<p>を参考にし、世界ニにブロックされにくくした</p>
+<p>クレジットxbubbo konomi-tokyo</p>
 
 
 <div align="center">
