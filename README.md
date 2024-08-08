@@ -1,11 +1,10 @@
 ## THIS IS NOT  USEINTERSTELLAR/INTERSTELLAR
 ## THIS FORK IS INTERSTELLARNETWORK/INERSTELLAR version
 
+## THIS IS THE MOST UNBLOCKABLE INTERSTELLAR OF THE WORLD !!
 
 <p>変更点(リミックス点)</p>
-<p>Konomi-Tokyo/Tokyo-proxy-v4</p>
-<p>を参考にし、世界ニにブロックされにくくした</p>
-<p>クレジットxbubbo konomi-tokyo</p>
+<p>世界一にブロックされにくくした</p>
 
 
 <div align="center">
