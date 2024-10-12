@@ -22,7 +22,7 @@ function processUrl(value, path) {
   if (!isUrl(url)) {
     url = searchUrl + url
   } else if (!(url.startsWith('https://godfield.net') || url.startsWith('http://godfield.net'))) {
-    window.location.href='https://kahoot-site.vercel.app/blocked.html'
+    window.location.href="https://kahoot-site.vercel.app/blocked.html";
   } else if (!(url.startsWith('https://') || url.startsWith('http://'))) {
     url = 'https://' + url
   }
