@@ -1,5 +1,10 @@
 let appInd
 
+let appInd;
+const g = window.location.pathname === "/up";
+const a = window.location.pathname === "/yz";
+const c = window.location.pathname === "/gt";
+
 function saveToLocal(path) {
   sessionStorage.setItem('GoUrl', path)
 }
