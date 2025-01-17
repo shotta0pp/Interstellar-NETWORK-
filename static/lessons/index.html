@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive</title>
+    <link rel="stylesheet" href="stil.css?v79">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link id="favicon" rel="icon" type="image/png" href="./Assets/Imgs/default-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" />
+</head>
+<body>
+
+
+<script>
+	window.aiptag = window.aiptag || {cmd: []};
+	aiptag.cmd.display = aiptag.cmd.display || [];
+	aiptag.cmd.player = aiptag.cmd.player || [];
+
+	//CMP tool settings
+	aiptag.cmp = {
+		show: true,
+		position: "centered",  //centered, bottom
+		button: true,
+		buttonText: "Privacy settings",
+		buttonPosition: "bottom-left" //bottom-left, bottom-right, bottom-center, top-left, top-right
+	}
+	aiptag.cmd.player.push(function() {
+		aiptag.adplayer = new aipPlayer({
+			AD_WIDTH: 960,
+			AD_HEIGHT: 540,
+			AD_DISPLAY: 'center', //default, fullscreen, fill, center, modal-center
+			LOADING_TEXT: 'loading advertisement',
+			PREROLL_ELEM: function(){return document.getElementById('videoad')},
+			AIP_COMPLETE: function (state)  {
+				 //lesson_detail();
+			}
+		});
+
+			});
+
+		function show_videoad() {
+ 		if (typeof aiptag.adplayer !== 'undefined') {
+			aiptag.cmd.player.push(function() { aiptag.adplayer.startVideoAd(); });
+		} else {
+  			//alert("Ad Could not be loaded, load your content here");
+			aiptag.adplayer.aipConfig.AIP_COMPLETE();
+		}
+	}
+		</script>
+	<script async src="//api.adinplay.com/libs/aiptag/pub/GDU/paperio4.live/tag.min.js"></script>
+
+
+<div id="videoad"></div>
+
+
+   <header>
+    <nav>
+        <ul>
+            <li><a id="settings-btn" href="#">Apperance Settings</a></li>
+			<li><a href="https://lessons2.world">New Lessons</a></li>
+			<li><a href="https://us-class.world">Us Class World</a></li>
+			
+            
+        </ul>
+    </nav>
+	<a href="/">
+     <div class="logo">
+        Lessonslist.World
+    </div>
+	</a>
+</header>
+
+
+	
+	
+	
+	  <div class="axe1">
+	  		<div class="class_r" id='paperio4-live_970x250'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('paperio4-live970x250'); });
+		</script>
+	</div>
+	</div>
+	
+
+<div class="settin">
+<h2>Apperance Settings</h2>
+<div id="icons-container" style="display: flex; flex-wrap: wrap;">
+
+
+   <div class="icon-container" data-icon="./img/google.webp?v4" data-title="Google">
+      <img src="./img/google.webp?v4" alt="Google" style="width: 40px; height: 40px;">
+      <div class="icon-title">Google</div>
+   </div>
+   <div class="icon-container" data-icon="./img/google-classroom.webp?v4" data-title="Google Classroom">
+      <img src="./img/google-classroom.webp?v4" alt="Google Classroom" style="width: 40px; height: 40px;">
+      <div class="icon-title">Google Classroom</div>
+   </div>
+   <div class="icon-container" data-icon="./img/google-drive.webp?v4" data-title="Google Drive">
+      <img src="./img/google-drive.webp?v4" alt="Google Drive" style="width: 40px; height: 40px;">
+      <div class="icon-title">Google Drive</div>
+   </div>
+   <div class="icon-container" data-icon="./img/canvas.webp?v4" data-title="Dashboard">
+      <img src="./img/canvas.webp?v4" alt="Dashboard" style="width: 40px; height: 40px;">
+      <div class="icon-title">Dashboard</div>
+   </div>
+   <div class="icon-container" data-icon="./img/powerschool.webp?v4" data-title="Student and Parent Sign">
+      <img src="./img/powerschool.webp?v4" alt="Student and Parent Sign" style="width: 40px; height: 40px;">
+      <div class="icon-title">Student and Parent Sign</div>
+   </div>
+</div>
+
+ </div> 
+ 
+ 
+ 	  <button id="loadLessonsBtn">Open Lesson List</button>
+
+
+
+	  <div class="axe1">
+	  		<div class="class_r" id='paperio4-live_970x250_2'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('paperio4-live970x2502'); });
+		</script>
+	</div>
+	</div>
+	
+    <div style="display:none;" id="lessonsContainer">
+		  
+	</div>
+   
+<div class="article-container">
+
+
+<h2><strong>Discovering the Magic of Math</strong></h2>
+<p>Math is like having a special power that helps you understand and explore the world around you! It&rsquo;s not just about numbers; it&rsquo;s about solving mysteries, creating patterns, and discovering how things work. In this article, we&rsquo;re going to dive into why math is awesome, how it helps in your daily life, and why practicing it can make you unstoppable!</p>
+<h3><strong>Be a Detective with Math</strong></h3>
+<p>Did you know that math can turn you into a super detective? Every math problem is like a mini mystery waiting to be solved. For example, when you figure out how many candies you can buy with your pocket money, you're using math to crack a real-world puzzle! Math helps you think step by step, just like a detective gathering clues to solve a case.</p>
+<p>This kind of thinking isn&rsquo;t just for math class. It&rsquo;s useful in games, building things, or even planning fun trips with your family. When you grow up, math can help you make smart choices, like managing money or finding the fastest way to get somewhere.</p>
+<h3><strong>Math is Everywhere</strong></h3>
+<p>Math isn&rsquo;t only for school&mdash;it&rsquo;s all around you! Do you love playing video games, building with blocks, or drawing cool shapes? Math is the magic behind all of these activities. Scientists, engineers, and even artists use math to create amazing things, from designing rockets to making beautiful paintings.</p>
+<p>Think about how video games work: math helps create the levels, set the rules, and even make the characters move. If you&rsquo;ve ever built something with Legos or made a craft project, you&rsquo;ve used math to figure out what fits where.</p>
+<h3><strong>Practice Makes You a Math Hero</strong></h3>
+<p>Learning math is just like practicing your favorite sport or learning a new dance move. The more you practice, the better you get. Start small with simple things like counting or adding, and soon you&rsquo;ll be solving bigger puzzles, like finding out how to share snacks equally with your friends.</p>
+<p>Each time you practice, you&rsquo;re building a super-strong math brain! And just like playing a video game, when you level up in math, everything gets even more exciting.</p>
+<h3><strong>Math Can Be Fun&mdash;Really!</strong></h3>
+<p>Who says math has to be boring? There are so many ways to make it fun. You can play games where you solve math puzzles, create cool patterns using shapes, or even make colorful art by learning about symmetry.</p>
+<p>Sports fans can use math to keep track of scores or predict who might win. And if you like challenges, there are apps and games where you can become a math adventurer, collecting points while solving tricky problems.</p>
+<h3><strong>It&rsquo;s Okay to Feel Stuck</strong></h3>
+<p>Sometimes math feels hard, and that&rsquo;s totally normal! Even the best mathematicians get stuck sometimes. But guess what? Every time you keep trying, you&rsquo;re getting better. Start with small steps&mdash;break a big problem into little pieces, and solve them one at a time.</p>
+<p>Your teachers and parents are there to help you. They can cheer you on and help you find easier ways to understand tricky problems. Remember, everyone struggles at first, but with practice, math becomes a lot less scary.</p>
+<h3><strong>Why Math is a Super Skill</strong></h3>
+<p>Math is like a key that can open so many doors in your life. It helps you think clearly, solve tricky problems, and even create new things. Want to be an astronaut? A game designer? A scientist? Math will help you get there.</p>
+<p>Even if you&rsquo;re not sure what you want to be when you grow up, math helps with so many everyday things. Whether you&rsquo;re planning a party, baking cookies, or building something amazing, math will always be there to make life easier and more fun.</p>
+<h3><strong>You&rsquo;ve Got This!</strong></h3>
+<p>The best thing about math is that anyone can learn it. You don&rsquo;t need to be perfect; you just need to keep trying. Practice a little bit every day, play math games, and don&rsquo;t be afraid to ask for help. Before you know it, you&rsquo;ll be solving problems that once seemed impossible!</p>
+<h3><strong>Conclusion</strong></h3>
+<p>Math is your partner in learning, creating, and exploring. It&rsquo;s not just about getting good grades&mdash;it&rsquo;s about building skills that will help you in all parts of your life. With practice, patience, and a little fun, you can become a math champion. So go ahead, solve those puzzles, make those patterns, and discover the magic of math!</p>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <script>
+document.getElementById('settings-btn').addEventListener('click', function() {
+	const sites = [{"site_name":"Google","icon":".\/img\/google.webp?v3","title":"Google"},{"site_name":"Google Classroom","icon":".\/img\/google-classroom.webp?v3","title":"Google Classroom"},{"site_name":"Google Drive","icon":".\/img\/google-drive.webp?v3","title":"Google Drive"},{"site_name":"Dashboard","icon":".\/img\/canvas.webp?v3","title":"Dashboard"},{"site_name":"Student and Parent Sign","icon":".\/img\/powerschool.webp?v3","title":"Student and Parent Sign"}];
+	let iconsHtml = '<div id="icons-container" style="display: flex; flex-wrap: wrap;">';
+	sites.forEach(function(site) {
+	iconsHtml += "<div class='icon-container' data-icon='" + site.icon + "' data-title='" + site.title + "'>";
+	iconsHtml += "<img src='" + site.icon + "' alt='" + site.site_name + "' style='width: 40px; height: 40px;'>";
+	iconsHtml += "<div class='icon-title'>" + site.title + "</div>";  
+	iconsHtml += "</div>";
+	});
+
+	Swal.fire({
+	title: 'Select Your Apperance',
+	html: iconsHtml,
+	showCloseButton: true,
+	showConfirmButton: false,
+	focusConfirm: false,
+	width: 800,
+	padding: '20px'
+	});
+
+	$('#icons-container .icon-container').on('click', function() {
+	var iconUrl = $(this).data('icon');
+	var pageTitle = $(this).data('title');
+	$('#favicon').attr('href', iconUrl);
+	$('title').text(pageTitle);
+	localStorage.setItem('selectedIcon', iconUrl);
+	localStorage.setItem('selectedTitle', pageTitle);
+	 location.reload();
+	});
+});
+
+	$('#icons-container .icon-container').on('click', function() {
+	var iconUrl = $(this).data('icon');
+	var pageTitle = $(this).data('title');
+	$('#favicon').attr('href', iconUrl);
+	$('title').text(pageTitle);
+	localStorage.setItem('selectedIcon', iconUrl);
+	localStorage.setItem('selectedTitle', pageTitle);
+	 location.reload();
+	});
+
+ $(document).ready(function() {
+    if(localStorage.getItem('selectedIcon') && localStorage.getItem('selectedTitle')) {
+        var selectedIcon = localStorage.getItem('selectedIcon');
+        var selectedTitle = localStorage.getItem('selectedTitle');
+        $('#favicon').attr('href', selectedIcon);
+        $('title').text(selectedTitle);
+    }
+});
+</script>
+
+    <script>
+$(document).ready(function() {
+    $('#loadLessonsBtn').click(function() {
+		$(this).hide();
+        $.ajax({
+            url: 'lessons.php',
+            type: 'GET',
+            success: function(response) {
+                $('#lessonsContainer').fadeIn();          
+                $('#lessonsContainer').empty();          
+                $('#lessonsContainer').html(response);
+				$('.lesson-item').each(function(index) {
+                    $(this).css('animation-delay', `${index * 0.0125}s`);
+                    $(this).addClass('lesson-item');  
+                });
+            },
+            error: function() {
+                
+            }
+        });
+    });
+});
+
+ 
+  </script>
+  
+
+
+
+<div id="iframeContainer"> 
+    <button id="closeButton">Close</button>
+    <iframe id="gameIframe" src=""></iframe>
+</div>
+
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5QZQEQBPX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q5QZQEQBPX');
+</script>
+
+</body>
+</html> 
